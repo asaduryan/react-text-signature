@@ -1,13 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import TextSignature from './components/TextSignature';
 import * as serviceWorker from './serviceWorker';
+const getImage = () => {
 
+}
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <>
+    <TextSignature
+      className="text"
+      name="signature"
+      defaultImg={''}
+      getImage={getImage}
+      x={0}
+      y={40}
+      height={68}
+      font='30px Arial'
+    />
+  </>,
   document.getElementById('root')
 );
 
