@@ -50,5 +50,11 @@
     "presets": [
       "@babel/preset-react"
     ]
-  }
+  },
+  "keywords": [
+    "signature",
+    "react",
+    "text to signature",
+    "canvas"
+  ]
 }
